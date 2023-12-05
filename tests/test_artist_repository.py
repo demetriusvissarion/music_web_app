@@ -11,6 +11,7 @@ def test_get_all_records(db_connection): # See conftest.py to learn what `db_con
     repository = ArtistRepository(db_connection) # Create a new ArtistRepository
 
     artists = repository.all() # Get all artists
+    # artist_names_string = ", ".join([artist.artist_name for artist in artists])
 
     # Assert on the results
     assert artists == [
