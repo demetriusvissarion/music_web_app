@@ -1,7 +1,6 @@
 ## Exercise
 
-Create a new Flask application called `music_web_app` [using the
-starter].
+Create a new Flask application called `music_web_app` [using the starter].
 
 Follow the [Single Table Design Recipe] and the [Plain Route Design recipe] to test-drive a route `POST /albums` to create a new album:
 
@@ -93,7 +92,7 @@ CREATE TABLE albums (
 ## 5. Create the table
 
 ```bash
-psql -h 127.0.0.1 music_web_app < music_web_app.sql
+psql -h 127.0.0.1 music_web_app < seeds/music_web_app.sql
 ```
 
 
@@ -180,6 +179,7 @@ def test_get_records(web_client):
 Action plan:
 - create database x2
 - try to reuse code from music_library project
+- music_web_app.sql
 
 
 
