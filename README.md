@@ -4,12 +4,7 @@ This is a starter project for you to use to start your Flask web & database
 projects.
 
 It contains quite a lot of example code. You can use this to see how the various
-parts of the project work, or you can delete it and start from scratch.
-
-There are two videos to support:
-
-* [A demonstration of setting up the project](https://www.youtube.com/watch?v=72JwLuAyHyM&t=360s)
-* [A walkthrough of the project codebase](https://www.youtube.com/watch?v=72JwLuAyHyM&t=735s) 
+parts of the project work, or you can delete it and start from scratch. 
 
 
 ## Setup
@@ -55,12 +50,4 @@ If you would like to remove the example code:
 ```
 
 
-<!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
----
-
-**How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fweb-applications-in-python-project-starter-plain&prefill_File=README.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fweb-applications-in-python-project-starter-plain&prefill_File=README.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fweb-applications-in-python-project-starter-plain&prefill_File=README.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fweb-applications-in-python-project-starter-plain&prefill_File=README.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fweb-applications-in-python-project-starter-plain&prefill_File=README.md&prefill_Sentiment=😀)  
-Click an emoji to tell us.
-
-<!-- END GENERATED SECTION DO NOT EDIT -->

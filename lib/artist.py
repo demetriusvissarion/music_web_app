@@ -1,10 +1,11 @@
-class Book:
+class Artist:
     # We initialise with all of our attributes
     # Each column in the table should have an attribute here
-    def __init__(self, id, title, author_name):
-        self.id = id
-        self.title = title
-        self.author_name = author_name
+    def __init__(self, id, name, genre, albums = []):
+        self.artist_id = id
+        self.artist_name = name
+        self.genre = genre
+        self.albums = albums
 
     # This method allows our tests to assert that the objects it expects
     # are the objects we made based on the database records.
@@ -13,4 +14,6 @@ class Book:
 
     # This method makes it look nicer when we print an Artist
     def __repr__(self):
-        return f"Book({self.id}, {self.title}, {self.author_name})"
+        if len(self.albums) > 0:
+            return f"Artist({self.artist_id}, {self.artist_name}, {self.genre}, {self.albums})"
+        return f"Artist({self.artist_id}, {self.artist_name}, {self.genre})"
